@@ -1,10 +1,10 @@
 # Using curly braces
 my_set = {1, 2, 3}
-
+# lst=list(my_set)lst
 # Using the set() constructor
 my_set = set([1, 2, 3])
 
-
+# dct={}
 empty_set = set()  # Correct way to create an empty set
 
 #Unordered: Sets do not guarantee the order of elements. When you print a set,

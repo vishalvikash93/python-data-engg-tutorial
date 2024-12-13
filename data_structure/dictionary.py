@@ -1,3 +1,5 @@
+from data_structure.set import my_set
+
 my_dict = {"key1": "value1", "key2": "value2", "key3": "value3"}
 
 #Accessing Values: Values are accessed by referencing their associated keys.
@@ -47,7 +49,7 @@ items = my_dict.items()
 
 #Checking for Existence of Keys:
 # Use the in keyword to check if a key exists in a dictionary.
-if "name" in my_dict:
+if "name1" in my_dict:
     print("Name exists!")
 
 

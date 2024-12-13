@@ -1,3 +1,4 @@
+# empty_list=[]
 fruits = ["apple", "banana", "cherry"]
 print(fruits[0])  # Output: apple
 print(fruits[1])  # Output: banana
@@ -14,8 +15,8 @@ print(fruits)  # Output: ['apple', 'orange', 'cherry', 'grape']
 
 fruits.insert(1, "kiwi")  # Inserts 'kiwi' at index 1
 print(fruits)  # Output: ['apple', 'kiwi', 'orange', 'cherry', 'grape']
-
-fruits.extend(["pear", "melon"])  # Adds two items from another list
+lst1=["pear", "melon"]
+fruits.extend(lst1)  # Adds two items from another list
 print(fruits)  # Output: ['apple', 'kiwi', 'orange', 'cherry', 'grape', 'pear', 'melon']
 
 ########## remove #######
