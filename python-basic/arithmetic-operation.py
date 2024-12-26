@@ -8,11 +8,11 @@ print(result)
 
 #   -
 result=b-a
-print(result)
+# print(result)
 
 #   *
 result=b*a
-print(result)
+# print(result)
 
 #
 
@@ -39,10 +39,12 @@ print(res)
 
 #########################  comparison  operator ##########
 
+#equal equal
 j=21
 i=20
 print(i==j)
 
+#not equal
 print(i!=j)
 
 print(j<i)

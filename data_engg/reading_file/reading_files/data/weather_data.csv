@@ -1,0 +1,16 @@
+Day,Event,Temperature,Unit,WindSpeed
+2024-12-01,Sunny,25,°C,15 km/h
+2024-12-02,Rainy,18,°C,20 km/h
+2024-12-03,Cloudy,22,°C,10 km/h
+2024-12-04,Snow,-5,°C,5 km/h
+2024-12-05,Sunny,27,°C,12 km/h
+2024-12-06,Rainy,19,°C,18 km/h
+2024-12-07,Thunderstorm,21,°C,25 km/h
+2024-12-08,Cloudy,23,°C,8 km/h
+2024-12-09,Sunny,30,°C,10 km/h
+2024-12-10,Rainy,20,°C,15 km/h
+2024-12-11,Snow,-3,°C,7 km/h
+2024-12-12,Cloudy,24,°C,10 km/h
+2024-12-13,Sunny,28,°C,13 km/h
+2024-12-14,Rainy,17,°C,22 km/h
+2024-12-15,Snow,-7,°C,6 km/h

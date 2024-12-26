@@ -1,6 +1,13 @@
-lt=[2,3,5,1,6,3,7]
+temp=[1,11,13,6,7,10]
+# for i in temp:
+#     print(i)
 
+print(len(temp))
 
-for elem in lt:
-    print(elem)
+# print(f'sort :{temp.sort()}')
+# print(temp)
+
+# test_sorted=sorted(temp)
+print(f'sorted:{sorted(temp)}')
+print(temp)
 

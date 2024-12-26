@@ -22,16 +22,17 @@ class Account:
 
 # Creating an object of Account
 account = Account("John Doe", 1000)
-
+# account=10001
+print(account.withdraw(1010))
 # Accessing the balance through the getter method
-print(account.get_balance())  # Outputs: 1000
-
-# Modifying the balance through the setter methods
-account.deposit(500)  # Deposits 500
-print(account.get_balance())  # Outputs: 1500
-
-account.withdraw(200)  # Withdraws 200
-print(account.get_balance())  # Outputs: 1300
+# print(account.get_balance())  # Outputs: 1000
+#
+# # Modifying the balance through the setter methods
+# account.deposit(500)  # Deposits 500
+# print(account.get_balance())  # Outputs: 1500
+#
+# account.withdraw(200)  # Withdraws 200
+# print(account.get_balance())  # Outputs: 1300
 
 # Trying to access or modify the balance directly would result in an error:
 # print(account.__balance)  # This would raise an AttributeError

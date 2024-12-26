@@ -1,5 +1,6 @@
 from class_object_example import Car
 
+
 class ElectricCar(Car):  # Inherit from Car class
     def __init__(self, make, model, year, battery_size):
         super().__init__(make, model, year)  # Call the parent class constructor

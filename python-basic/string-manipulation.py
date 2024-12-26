@@ -39,7 +39,7 @@ text = "HeLLo WoRLd"
 result = text.swapcase()
 # print(result)
 
-#Finding the index of a substring. python Copy code
+#Finding the index of a substring.
 text = "Hello World"
 index = text.find("World")  # 6
 

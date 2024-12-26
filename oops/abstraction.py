@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+from abc import ABC, abstractmethod,update_abstractmethods,ABCMeta
 
 # Abstract base class
 class Animal(ABC):
