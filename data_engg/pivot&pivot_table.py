@@ -11,7 +11,6 @@ df_pivot = df.pivot(index='Date', columns='City', values='Temperature')
 
 print(df_pivot)
 
-
 # Sample DataFrame
 data = {'Date': ['2022-01-01', '2022-01-01', '2022-01-02', '2022-01-02'],
         'City': ['New York', 'Los Angeles', 'New York', 'Los Angeles'],
