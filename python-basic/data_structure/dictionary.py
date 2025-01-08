@@ -1,5 +1,3 @@
-from data_structure.set import my_set
-
 my_dict = {"key1": "value1", "key2": "value2", "key3": "value3"}
 
 #Accessing Values: Values are accessed by referencing their associated keys.
