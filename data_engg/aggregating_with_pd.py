@@ -49,8 +49,12 @@ df = pd.DataFrame({
     'Amount': [100, 200, 300, 400, None, 600]
 })
 
-# Fill NaN values
+
 df['Value'] = df['Value'].fillna(0)
+
+
+
+
 
 grouped = df.groupby('Category').agg({
     'Value': 'sum',        # Sum of Value, filling NaN with 0
