@@ -1,0 +1,104 @@
+import streamlit as st
+
+# Django interview questions
+interview_questions = """
+1. What are the different types of relationships in Django models?
+2. What is the difference between `ManyToManyField`, `ForeignKey`, and `OneToOneField`?
+3. What is `select_related` and `prefetch_related` in Django ORM?
+4. What is `F()` expression in Django ORM?
+5. How can you perform database migrations without losing data?
+6. What are `unique_together` and `index_together` in Django models?
+7. What is `db_index` in Django? How does it work?
+8. What are `Model Managers` in Django? How can you create a custom manager?
+9. What is the difference between `charfield` and `textfield` in Django models?
+10. How can you use `Raw SQL queries` in Django?
+11. What is the difference between function-based views and class-based views in Django?
+12. What are Django class-based views (CBVs) and how are they used?
+13. What are the advantages of using Django’s generic class-based views?
+14. What is the `render()` function in Django?
+15. What is the purpose of `@staticmethod` and `@classmethod` in Django models?
+16. What is `context` in Django templates?
+17. What are template filters in Django? Can you create custom filters?
+18. What is the purpose of `get_context_data()` in Django CBVs?
+19. How would you add pagination to a Django view?
+20. What are template tags in Django, and how do they work?
+21. How does Django handle user authentication?
+22. How can you implement custom authentication in Django?
+23. What is CSRF (Cross-Site Request Forgery) and how does Django protect against it?
+24. How does Django handle user authorization (permissions)?
+25. How can you store passwords securely in Django?
+26. What is Django's `LoginRequiredMixin` and how is it used?
+27. What is the difference between `django.contrib.auth` and `django-allauth`?
+28. How do you handle file uploads in Django?
+29. How do you implement two-factor authentication in Django?
+30. What is the purpose of the `SECRET_KEY` in Django?
+31. What is a Django form and how is it used?
+32. What are `ModelForms` in Django? How do they differ from regular forms?
+33. How can you add custom validation to Django forms?
+34. What are the different field types in Django forms?
+35. What is a `Formset` in Django?
+36. What is the difference between `clean()` and `cleaned_data()` in Django forms?
+37. How would you handle file uploads using Django forms?
+38. What is `form.is_valid()` in Django?
+39. How can you use Django forms with AJAX?
+40. What is the `formset_factory` function in Django?
+41. How do you write unit tests in Django?
+42. What is the purpose of `TestCase` in Django?
+43. What is the difference between `assertEqual` and `assertIn` in Django testing?
+44. How can you test Django views using `Client`?
+45. What is the purpose of `mock` in Django testing?
+46. How do you test database queries in Django tests?
+47. What is the difference between `setUp()` and `tearDown()` methods in Django tests?
+48. How do you handle testing Django models and forms?
+49. How can you use `fixtures` in Django testing?
+50. How would you test an API endpoint in Django Rest Framework (DRF)?
+51. What are some ways to optimize Django ORM queries?
+52. What is database indexing in Django and why is it important?
+53. How can you cache data in Django to improve performance?
+54. What is `django-debug-toolbar` and how does it help in debugging Django applications?
+55. What are some strategies for scaling Django applications?
+56. How would you handle database transactions in Django?
+57. How can you optimize the performance of Django templates?
+58. What is database normalization and denormalization in the context of Django?
+59. How can you perform database replication in Django?
+60. What are the most common performance issues in Django?
+61. How would you deploy a Django project in a production environment?
+62. What are the best practices for configuring `settings.py` in Django?
+63. What is the role of a `wsgi.py` file in Django?
+64. What is the difference between `development` and `production` settings in Django?
+65. How would you configure a database connection in Django for production?
+66. How do you handle static files in Django when deploying to production?
+67. What is the purpose of using a reverse proxy like Nginx or Apache with Django?
+68. How can you use Docker for deploying Django applications?
+69. What is a CI/CD pipeline in Django and how would you implement it?
+70. What is a `Procfile` in Django deployment?
+71. What are Django signals and when would you use them?
+72. What are `middleware` classes in Django and how do they work?
+73. What is the role of `get_object_or_404()` function in Django?
+74. What is the purpose of `django.contrib.sites` framework?
+75. What are Django’s `Custom User Model` and when would you use it?
+76. What is the `reverse()` function in Django?
+77. What is the difference between `django.urls.reverse()` and `django.http.HttpResponseRedirect()`?
+78. How does Django handle file and media storage?
+79. What is a `Data Migrations` in Django and how do you handle it?
+80. What is `Django REST Framework` and how is it different from Django’s native views?
+81. What is Django REST Framework (DRF)?
+82. How does DRF handle authentication and authorization?
+83. What are Serializers in Django REST Framework?
+84. What are the different types of DRF viewsets and when would you use each?
+85. What is the difference between `APIView` and `GenericAPIView` in DRF?
+86. What are DRF’s `permissions` and how can you create custom permissions?
+87. How does DRF handle pagination?
+88. What is the role of `routers` in DRF?
+89. What is the `throttling` feature in DRF?
+90. How would you implement file upload and download with Django REST Framework?
+"""
+
+# Write to a text file
+with open("django_interview_questions.txt", "w") as file:
+    file.write(interview_questions)
+
+# Display download button
+st.title("Download Django Interview Questions")
+with open("django_interview_questions.txt", "r") as file:
+    st.download_button("Download Django Interview Questions", file, file_name="django_interview_questions.txt")
